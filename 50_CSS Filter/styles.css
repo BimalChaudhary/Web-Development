@@ -1,0 +1,22 @@
+.container{
+
+}
+img{
+    /* filter: blur(5px); */
+    /* filter: contrast(600%); */
+}
+.img1{
+    /* filter: brightness(220%) contrast(200%); */
+    filter: opacity(200%0);
+}
+.img2{
+    /* filter: hue-rotate(90deg); */
+    /* filter: sepia(60%); */
+    /* filter: invert(75%); */
+    /* filter:brightness(600%); */
+    filter: opacity(2000%);
+}
+.img3{
+    /* filter: grayscale(80%); */
+    filter: drop-shadow(16px 16px 20px rgb(33, 3, 204)) invert(75%);
+}

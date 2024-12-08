@@ -1,0 +1,101 @@
+.logo img {
+    width: 70px;
+    height: 50px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .right ul {
+    display: flex;
+  }
+  .right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .right ul li span{
+    padding: 0 5px;
+  }
+  .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .one{
+    font-size: 40px;
+    margin: 55px;
+  }
+  .two{
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-size: 28px  ;
+  }
+  .two div{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .three button{
+    background-color:aqua;
+    height: 45px;
+    color: white;
+    font-weight: 300;
+    width: 274px;
+    font-size: large;
+    border-radius: 15px;
+  }
+  .btn{
+    background-color:aqua;
+    height: 45px;
+    color: white;
+    font-weight: 300;
+    width: 154px;
+    font-size: large;
+    border-radius: 15px;
+  }
+  .green{
+    background-color: green;
+  }
+  .logo2 img{
+    width: 70px;
+    height: 50px;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center;
+  }
+
+  .flex{
+    display: flex;
+  }
+  .small{
+    font-size: 12px;
+  }
+.second{
+   max-width: 50vw;
+   margin: auto;
+    background-color: #fff;
+}
+.item{
+    padding: 23px;
+    background: #dfdada;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
