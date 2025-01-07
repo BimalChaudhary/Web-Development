@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100vh;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    border: 33px solid rgb(42, 4, 255);
+    border-radius: 50%;
+}
