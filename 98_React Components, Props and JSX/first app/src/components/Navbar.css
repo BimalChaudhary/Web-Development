@@ -1,0 +1,15 @@
+nav, ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+}
+ul{
+    gap: 23px;
+}
+nav{
+    background-color: violet;
+    border-radius: 42px;
+    padding: 23px;
+}
